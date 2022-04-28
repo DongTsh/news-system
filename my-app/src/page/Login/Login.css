@@ -1,0 +1,27 @@
+.container {
+    height: 100%;
+    background-image: url(../../../public/img/wallpaper.jpg);
+    background-size: cover;
+}
+
+.formContainer {
+    position: fixed;
+    width: 400px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0.3px 0.7px rgb(0 0 0 / 13%), 0 0.9px 1.7px rgb(0 0 0 / 18%), 0 1.8px 3.5px rgb(0 0 0 / 22%), 0 3.7px 7.3px rgb(0 0 0 / 28%), 0 10px 20px rgb(0 0 0 / 40%);
+    transition: 0.5s ease;
+}
+
+.loginTitle {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
